@@ -1,2 +1,2 @@
 # Python-execise
-Just for practicing python
+Just for practicing python.
