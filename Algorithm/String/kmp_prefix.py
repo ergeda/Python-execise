@@ -16,6 +16,7 @@ def kmp_prefix(input_str):
 
     return prefix
 
+
 def is_repeated_substring_pattern(input_str):
     '''
     check if input_str is with repeated substring pattern
@@ -32,31 +33,11 @@ def is_repeated_substring_pattern(input_str):
     return latest_zero != -1 and (len(prefix)-latest_zero) % latest_zero == 0
 
 
-# call inside the module
+# Examples
 input_str = 'abcbababcbababcbaaabcbababcbababcbaaabcbababcbababcba'
 print(kmp_prefix(input_str))
 print(is_repeated_substring_pattern(input_str))
 
 input_str = 'abababababababababcccccccccccabababab'
-print(kmp_prefix(input_str))
-print(is_repeated_substring_pattern(input_str))
-
-input_str = 'a'
-print(kmp_prefix(input_str))
-print(is_repeated_substring_pattern(input_str))
-
-input_str = 'aa'
-print(kmp_prefix(input_str))
-print(is_repeated_substring_pattern(input_str))
-
-input_str = 'aac'
-print(kmp_prefix(input_str))
-print(is_repeated_substring_pattern(input_str))
-
-input_str = 'aaa'
-print(kmp_prefix(input_str))
-print(is_repeated_substring_pattern(input_str))
-
-input_str = 'aac'
 print(kmp_prefix(input_str))
 print(is_repeated_substring_pattern(input_str))
