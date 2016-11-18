@@ -34,10 +34,10 @@ def is_repeated_substring_pattern(input_str):
 
 
 # Examples
-input_str = 'abcbababcbababcbaaabcbababcbababcbaaabcbababcbababcba'
-print(kmp_prefix(input_str))
-print(is_repeated_substring_pattern(input_str))
+#input_str = 'abcbababcbababcbaaabcbababcbababcbaaabcbababcbababcba'
+#print(kmp_prefix(input_str))
+#print(is_repeated_substring_pattern(input_str))
 
-input_str = 'abababababababababcccccccccccabababab'
-print(kmp_prefix(input_str))
-print(is_repeated_substring_pattern(input_str))
+#input_str = 'abababababababababcccccccccccabababab'
+#print(kmp_prefix(input_str))
+#print(is_repeated_substring_pattern(input_str))
